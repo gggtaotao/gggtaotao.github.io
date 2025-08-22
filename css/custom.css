@@ -12,24 +12,25 @@
   background-position: center !important;
 }
 
-/* Gitalk 评论区域暗色模式适配 */
-[data-theme="dark"] .gt-container .gt-comment-content,
-[data-theme="dark"] .gt-container .gt-header-textarea,
-[data-theme="dark"] .gt-container .gt-comments-null {
-  background-color: #2b2b2b !important;  /* 深色背景 */
-  color: #e0e0e0 !important;            /* 浅色字体 */
+/* 按钮适配暗色模式 */
+[data-theme="dark"] .gt-container .gt-btn {
+  background-color: #444 !important;   /* 深灰背景 */
+  color: #e0e0e0 !important;           /* 浅色字体 */
+  border: 1px solid #666 !important;   /* 边框稍微亮一点 */
 }
 
-/* 调整评论区里的链接、作者名等 */
-[data-theme="dark"] .gt-container a {
-  color: #58a6ff !important;
+/* 鼠标悬停时的效果 */
+[data-theme="dark"] .gt-container .gt-btn:hover {
+  background-color: #555 !important;   /* 鼠标移上去更亮一些 */
+  border-color: #888 !important;
 }
 
-/* 评论框的边框颜色 */
-[data-theme="dark"] .gt-container .gt-comment-content,
-[data-theme="dark"] .gt-container .gt-header-textarea {
-  border: 1px solid #444 !important;
+/* 激活状态（比如点下去的瞬间） */
+[data-theme="dark"] .gt-container .gt-btn:active {
+  background-color: #666 !important;
+  border-color: #aaa !important;
 }
+
 
 
 /* 页脚与头图透明 */
