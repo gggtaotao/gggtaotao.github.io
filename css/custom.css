@@ -31,11 +31,6 @@
   color: #58a6ff !important;
 }
 
-/* 时间戳颜色（例如“发表于 1分钟前”） */
-[data-theme="dark"] .gt-container .gt-comment-date {
-  color: #999 !important;  /* 比正文更浅一些，避免太抢眼 */
-}
-
 
 
 /* 页脚与头图透明 */
