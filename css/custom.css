@@ -1,12 +1,12 @@
 /* 个人信息卡片背景图（适配Butterfly主题常见结构） */
 [data-theme="light"] #aside-content .card-info {
-  background-image: url(https://images.wallpaperscraft.com/image/single/piano_silhouette_space_156662_3415x3415.jpg) !important;
+  background-image: url(https://images.wallpaperscraft.com/image/single/girl_dragon_sea_1217603_720x1280.jpg) !important;
   background-repeat: no-repeat !important;
   background-size: cover !important; /* 覆盖卡片，避免拉伸 */
   background-position: center !important;
 }
 [data-theme="dark"] #aside-content .card-info {
-  background-image: url(https://images.wallpaperscraft.com/image/single/piano_silhouette_space_156662_3415x3415.jpg) !important;
+  background-image: url(https://images.wallpaperscraft.com/image/single/girl_ears_hood_1079406_720x1280.jpg) !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
